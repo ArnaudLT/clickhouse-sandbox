@@ -1,4 +1,4 @@
-package org.arnaudlt.clickhouse.sandbox;
+package org.arnaudlt.clickhouse.game.pong;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 import java.util.HashSet;
 import java.util.Set;
 
-public class PongGame extends Application {
+public class PongGameBasic extends Application {
 
     // Game states
     private enum GameState {
