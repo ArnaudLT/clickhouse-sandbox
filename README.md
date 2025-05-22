@@ -69,3 +69,28 @@ The game is implemented using JavaFX and consists of the following components:
 - **PongLauncher.java**: A simple launcher class to start the game directly
 
 The game uses a canvas for rendering and an animation timer for the game loop. The AI opponent uses a simple following algorithm to track the ball's position.
+
+## GitHub Repository Setup
+
+To push this code to GitHub:
+
+1. Create a new repository on GitHub:
+   - Go to https://github.com/new
+   - Enter a repository name (e.g., "clickhouse-sandbox")
+   - Add a description (optional)
+   - Choose public or private visibility
+   - Click "Create repository"
+
+2. Add the GitHub repository as a remote:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/clickhouse-sandbox.git
+   ```
+   (Replace YOUR_USERNAME with your GitHub username)
+
+3. Push the code to GitHub:
+   ```bash
+   git push -u origin master
+   ```
+
+4. Verify that your code is now on GitHub by visiting:
+   https://github.com/YOUR_USERNAME/clickhouse-sandbox
